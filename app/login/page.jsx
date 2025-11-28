@@ -29,11 +29,11 @@ export default function LoginPage() {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      toast.success("Logged in successfully!");
+      toast.success("Logged in successfully!", { duration: 2000 });
       router.push("/dashboard/manageproducts");
     } catch (error) {
       console.error(error);
-      toast.error(error.message || "Login failed.");
+      toast.error(error.message || "Login failed.", { duration: 2000 });
     }
 
     setLoading(false);
@@ -46,11 +46,11 @@ export default function LoginPage() {
       const provider = new GoogleAuthProvider();
       await signInWithPopup(auth, provider);
 
-      toast.success("Signed in with Google!");
+      toast.success("Signed in with Google!", { duration: 2000 });
       router.push("/dashboard/manageproducts");
     } catch (error) {
       console.error(error);
-      toast.error(error.message || "Google login failed.");
+      toast.error(error.message || "Google login failed.", { duration: 2000 });
     }
 
     setGoogleLoading(false);

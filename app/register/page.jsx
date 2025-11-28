@@ -51,11 +51,11 @@ export default function RegisterPage() {
     try {
       await createUserWithEmailAndPassword(auth, email, password);
 
-      toast.success("Account created successfully! 🚀");
+      toast.success("Account created successfully! 🚀", { duration: 2000 });
       router.push("/dashboard/manageproducts");
     } catch (error) {
       console.error("Registration Error:", error.message);
-      toast.error(error.message);
+      toast.error(error.message, { duration: 2000 });
     }
 
     setLoading(false);
@@ -68,11 +68,11 @@ export default function RegisterPage() {
       const provider = new GoogleAuthProvider();
       await signInWithPopup(auth, provider);
 
-      toast.success("Signed in with Google! 🎉");
+      toast.success("Signed in with Google! 🎉", { duration: 2000 });
       router.push("/dashboard/manageproducts");
     } catch (error) {
       console.error("Google Login Error:", error.message);
-      toast.error(error.message);
+      toast.error(error.message, { duration: 2000 });
     }
 
     setGoogleLoading(false);
