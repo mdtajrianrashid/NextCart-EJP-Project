@@ -271,9 +271,9 @@ export default function HomePage() {
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <TestimonialCard 
-              quote="The cleanest template I've ever used. The performance is incredible and the code is so easy to understand."
+              quote="This website is modern, clean, and very easy to use. Fast loading, premium design, smooth flow, and simple navigation. A great shopping experience!"
               author="Alex D."
-              role="Software Engineer"
+              role="Verified Buyer"
             />
             <TestimonialCard 
               quote="I bought my first mechanical keyboard here. Shipping was fast and the packaging was excellent!"
