@@ -202,7 +202,7 @@ Sessions are handled via cookies after Firebase login.
 
 ---
 
-# 🌟 Features Implemented According to Task Requirements
+# 🌟 Features
 
 ✔ Next.js App Router  
 ✔ 7-section landing page  
