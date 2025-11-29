@@ -1,7 +1,7 @@
 # 🛒 NextCart — Modern E-Commerce App (Next.js + Firebase + MongoDB)
 
 NextCart is a simple, elegant, and fully functional e-commerce demo application built using the **Next.js App Router**, **Firebase Authentication**, and **MongoDB (Mongoose)**.  
-This project is created as part of **Programming Hero – Early Job Placement (EJP-12), Task 5**.
+This project is created as part of **My Next.js Demo Projects**.
 
 The application includes a polished UI, full authentication, protected dashboard pages, product CRUD operations, and a responsive landing page with 7+ sections.
 
